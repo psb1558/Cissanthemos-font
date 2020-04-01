@@ -1,10 +1,5 @@
 {
 .appVersion = "1270";
-DisplayStrings = (
-CISSANTHEMOS,
-"/t.alt2",
-"quietly\012attributes"
-);
 classes = (
 {
 code = " gravecomb acutecomb circumflexcomb tildecomb macroncomb dieresiscomb";
@@ -158,7 +153,7 @@ notes = "Name: Historical Forms";
 {
 code = "sub s by uniA785;";
 name = ss02;
-notes = "Name: Insular Shapes";
+notes = "Name: Insular s";
 },
 {
 code = "sub A by A.med1;\012sub Agrave by Agrave.med1;\012sub Aacute by Aacute.med1;\012sub Acircumflex by Acircumflex.med1;\012sub Atilde by Atilde.med1;\012sub Adieresis by Adieresis.med1;\012sub Amacron by Amacron.med1;\012sub B by B.med1;\012sub C by C.med1;\012sub D by D.med1;\012sub E by E.med1;\012sub Egrave by Egrave.med1;\012sub Eacute by Eacute.med1;\012sub Ecircumflex by Ecircumflex.med1;\012sub Edieresis by Edieresis.med1;\012sub Emacron by Emacron.med1;\012sub F by F.med1;\012sub G by G.med1;\012sub H by H.med1;\012sub I by I.med1;\012sub Igrave by Igrave.med1;\012sub Iacute by Iacute.med1;\012sub Icircumflex by Icircumflex.med1;\012sub Idieresis by Idieresis.med1;\012sub Imacron by Imacron.med1;\012sub J by J.med1;\012sub K by K.med1;\012sub L by L.med1;\012sub M by M.med1;\012sub N by N.med1;\012sub Ntilde by Ntilde.med1;\012sub O by O.med1;\012sub Ograve by Ograve.med1;\012sub Oacute by Oacute.med1;\012sub Ocircumflex by Ocircumflex.med1;\012sub Otilde by Otilde.med1;\012sub Odieresis by Odieresis.med1;\012sub Omacron by Omacron.med1;\012sub P by P.med1;\012sub Q by Q.med1;\012sub R by R.med1;\012sub S by S.med1;\012sub T by T.med1;\012sub U by U.med1;\012sub Ugrave by Ugrave.med1;\012sub Uacute by Uacute.med1;\012sub Ucircumflex by Ucircumflex.med1;\012sub Udieresis by Udieresis.med1;\012sub Umacron by Umacron.med1;\012sub V by V.med1;\012sub W by W.med1;\012sub X by X.med1;\012sub Y by Y.med1;\012sub Yacute by Yacute.med1;\012sub uni0232 by uni0232.med1;\012sub Z by Z.med1;";
@@ -171,7 +166,7 @@ name = ss17;
 notes = "Name: Swash";
 },
 {
-code = " sub A by A.sentence2;\012    sub Agrave by Agrave.sentence3;\012    sub Aacute by Aacute.sentence3;\012    sub Acircumflex by Acircumflex.sentence3;\012    sub Atilde by Atilde.sentence3;\012    sub Adieresis by Adieresis.sentence3;\012    sub Amacron by Amacron.sentence3;\012    sub C by C.sentence2;\012    sub D by D.sentence2;\012    sub G by G.sentence2;\012    sub H by H.sentence2;\012    sub L by L.sentence2;\012    sub M by M.sentence2;\012    sub N by N.sentence2;\012    sub Ntilde by Ntilde.sentence2;\012    sub O by O.sentence2;\012    sub Ograve by Ograve.sentence2;\012    sub Oacute by Oacute.sentence2;\012    sub Ocircumflex by Ocircumflex.sentence2;\012    sub Otilde by Otilde.sentence2;\012    sub Odieresis by Odieresis.sentence2;\012    sub Omacron by Omacron.sentence2;\012    sub P by P.sentence2;\012    sub Q by Q.sentence2;\012    sub S by S.sentence3;\012    sub T by T.sentence2;\012#    sub a by a.hist1;\012#    sub c by c.alt;\012#    sub n by n.alt2;\012#    sub r by r.alt2;\012#    sub uniA783 by r.alt2;\012#    sub z by z.alt1;\012    sub A.titl1 by A.titl2;\012    sub B.titl1 by B.titl2;\012    sub C.titl1 by C.titl2;\012    sub D.titl1 by D.titl2;\012    sub E.titl1 by E.titl2;\012    sub G.titl1 by G.titl2;\012    sub H.titl1 by H.titl2;\012    sub M.titl1 by M.titl2;\012    sub N.titl1 by N.titl2;\012    sub O.titl1 by O.titl2;\012    sub P.titl1 by P.titl2;\012    sub R.titl1 by R.titl2;\012    sub S.titl1 by S.titl2;\012    sub U.titl1 by U.titl2;\012    sub AE by AE.alt1;\012    sub D.med1 by D.med2;\012    sub B.med1 by B.med2;\012    sub Q.med1 by Q.med2;\012#    sub uniA751 by uniA751.alt;";
+code = " sub A by A.sentence2;\012    sub Agrave by Agrave.sentence3;\012    sub Aacute by Aacute.sentence3;\012    sub Acircumflex by Acircumflex.sentence3;\012    sub Atilde by Atilde.sentence3;\012    sub Adieresis by Adieresis.sentence3;\012    sub Amacron by Amacron.sentence3;\012    sub C by C.sentence2;\012    sub D by D.sentence2;\012    sub G by G.sentence2;\012    sub H by H.sentence2;\012    sub L by L.sentence2;\012    sub M by M.sentence2;\012    sub N by N.sentence2;\012    sub Ntilde by Ntilde.sentence2;\012    sub O by O.sentence2;\012    sub Ograve by Ograve.sentence2;\012    sub Oacute by Oacute.sentence2;\012    sub Ocircumflex by Ocircumflex.sentence2;\012    sub Otilde by Otilde.sentence2;\012    sub Odieresis by Odieresis.sentence2;\012    sub Omacron by Omacron.sentence2;\012    sub P by P.sentence2;\012    sub Q by Q.sentence2;\012    sub S by S.sentence3;\012    sub T by T.sentence2;\012#    sub a by a.hist1;\012#    sub c by c.alt;\012#    sub n by n.alt2;\012#    sub r by r.alt2;\012#    sub uniA783 by r.alt2;\012#    sub z by z.alt1;\012    sub A.titl1 by A.titl2;\012    sub Aacute.titl1 by Aacute.titl2;\012    sub Acircumflex.titl1 by Acircumflex.titl2;\012    sub Adieresis.titl1 by Adieresis.titl2;\012    sub Agrave.titl1 by Agrave.titl2;\012    sub Amacron.titl1 by Amacron.titl2;\012    sub Atilde.titl1 by Atilde.titl2;\012    sub B.titl1 by B.titl2;\012    sub C.titl1 by C.titl2;\012    sub D.titl1 by D.titl2;\012    sub E.titl1 by E.titl2;\012    sub Eacute.titl1 by Eacute.titl2;\012    sub Ecircumflex.titl1 by Ecircumflex.titl2;\012    sub Edieresis.titl1 by Edieresis.titl2;\012    sub Egrave.titl1 by Egrave.titl2;\012    sub Emacron.titl1 by Emacron.titl2;\012    sub G.titl1 by G.titl2;\012    sub H.titl1 by H.titl2;\012    sub M.titl1 by M.titl2;\012    sub N.titl1 by N.titl2;\012    sub O.titl1 by O.titl2;\012    sub P.titl1 by P.titl2;\012    sub R.titl1 by R.titl2;\012    sub S.titl1 by S.titl2;\012    sub U.titl1 by U.titl2;\012    sub Uacute.titl1 by Uacute.titl2;\012    sub Ucircumflex.titl1 by Ucircumflex.titl2;\012    sub Udieresis.titl1 by Udieresis.titl2;\012    sub Ugrave.titl1 by Ugrave.titl2;\012    sub Umacron.titl1 by Umacron.titl2;\012    sub AE by AE.alt1;\012    sub D.med1 by D.med2;\012    sub B.med1 by B.med2;\012    sub Q.med1 by Q.med2;\012#    sub uniA751 by uniA751.alt;";
 name = ss18;
 notes = "Name: Stylistic Alternates";
 },
@@ -185,11 +180,11 @@ code = "sub [ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Amacron Emacro
 name = titl;
 },
 {
-code = "sub A from [ A.sentence2 A.sentence3 ];\012sub Agrave from [ Agrave.sentence3 ];\012sub Aacute from [ Aacute.sentence3 ];\012sub Acircumflex from [ Acircumflex.sentence3 ];\012sub Atilde from [ Atilde.sentence3 ];\012sub Adieresis from [ Adieresis.sentence3 ];\012sub Amacron from [ Amacron.sentence3 ];\012sub C from [ C.sentence2 C.sentence3 ];\012sub D from [ D.sentence2 ];\012sub G from [ G.sentence2 ];\012sub H from [ H.sentence2 ];\012sub L from [ L.sentence2 ];\012sub M from [ M.sentence2 ];\012sub N from [ N.sentence2 ];\012sub Ntilde from [ Ntilde.sentence2 ];\012sub O from [ O.sentence2 ];\012sub Ograve from [ Ograve.sentence2 ];\012sub Oacute from [ Oacute.sentence2 ];\012sub Ocircumflex from [ Ocircumflex.sentence2 ];\012sub Otilde from [ Otilde.sentence2 ];\012sub Odieresis from [ Odieresis.sentence2 ];\012sub Omacron from [ Omacron.sentence2 ];\012sub P from [ P.sentence2 ];\012sub Q from [ Q.sentence2 Q.sentence3 ];\012sub S from [ S.sentence3 S.sentence2 ];\012sub T from [ T.sentence2 ];\012sub Thorn from [ Thorn.alt1 ];\012sub a from [ a.alt3 a.hist2 ];\012sub a.hist1 from [ a.alt3 a.hist2 ];\012sub c from [ c.alt ];\012sub n from [ n.alt2 ];\012sub r from [ r.alt2 ];\012sub uniA783 from [ r.alt2 ];\012sub z from [ z.alt1 ];\012sub A.titl1 from [ A.titl2 A.titl3 A.titl4 ];\012sub B.titl1 from [ B.titl2 ];\012sub C.titl1 from [ C.titl2 ];\012sub D.titl1 from [ D.titl2 ];\012sub E.titl1 from [ E.titl2 ];\012sub G.titl1 from [ G.titl2 G.titl3 ];\012sub H.titl1 from [ H.titl2 H.titl3 ];\012sub M.titl1 from [ M.titl2 ];\012sub N.titl1 from [ N.titl2 ];\012sub O.titl1 from [ O.titl2 ];\012sub P.titl1 from [ P.titl2 ];\012sub R.titl1 from [ R.titl2 ];\012sub S.titl1 from [ S.titl2 ];\012sub U.titl1 from [ U.titl2 ];\012sub AE from [ AE.alt1 ];\012sub D.med1 from [ D.med2 D.med3 ];\012sub B.med1 from [ B.med2 ];\012sub Q.med1 from [ Q.med2 ];\012sub uniA751 from [ uniA751.alt ];";
+code = "sub A from [ A.sentence2 A.sentence3 ];\012sub Agrave from [ Agrave.sentence3 ];\012sub Aacute from [ Aacute.sentence3 ];\012sub Acircumflex from [ Acircumflex.sentence3 ];\012sub Atilde from [ Atilde.sentence3 ];\012sub Adieresis from [ Adieresis.sentence3 ];\012sub Amacron from [ Amacron.sentence3 ];\012sub C from [ C.sentence2 C.sentence3 ];\012sub D from [ D.sentence2 ];\012sub G from [ G.sentence2 ];\012sub H from [ H.sentence2 ];\012sub L from [ L.sentence2 ];\012sub M from [ M.sentence2 ];\012sub N from [ N.sentence2 ];\012sub Ntilde from [ Ntilde.sentence2 ];\012sub O from [ O.sentence2 ];\012sub Ograve from [ Ograve.sentence2 ];\012sub Oacute from [ Oacute.sentence2 ];\012sub Ocircumflex from [ Ocircumflex.sentence2 ];\012sub Otilde from [ Otilde.sentence2 ];\012sub Odieresis from [ Odieresis.sentence2 ];\012sub Omacron from [ Omacron.sentence2 ];\012sub P from [ P.sentence2 ];\012sub Q from [ Q.sentence2 Q.sentence3 ];\012sub S from [ S.sentence3 S.sentence2 ];\012sub T from [ T.sentence2 ];\012sub Thorn from [ Thorn.alt1 ];\012sub a from [ a.alt3 a.hist2 ];\012sub agrave from [ agrave.hist2 ];\012sub acircumflex from [ acircumflex.hist2 ];\012sub aacute from [ aacute.hist2 ];\012sub amacron from [ amacron.hist2 ];\012sub atilde from [ atilde.hist2 ];\012sub adieresis from [ adieresis.hist2 ];\012sub a.hist1 from [ a.alt3 a.hist2 ];\012sub agrave.hist1 from [ agrave.hist2 ];\012sub acircumflex.hist1 from [ acircumflex.hist2 ];\012sub aacute.hist1 from [ aacute.hist2 ];\012sub amacron.hist1 from [ amacron.hist2 ];\012sub atilde.hist1 from [ atilde.hist2 ];\012sub adieresis.hist1 from [ adieresis.hist2 ];\012sub c from [ c.alt ];\012sub n from [ n.alt2 ];\012sub r from [ r.alt2 ];\012sub uniA783 from [ r.alt2 ];\012sub z from [ z.alt1 ];\012sub A.titl1 from [ A.titl2 A.titl3 A.titl4 ];\012sub Aacute.titl1 from [ Aacute.titl2 Aacute.titl3 Aacute.titl4 ];\012sub Acircumflex.titl1 from [ Acircumflex.titl2 Acircumflex.titl3 Acircumflex.titl4 ];\012sub Adieresis.titl1 from [ Adieresis.titl2 Adieresis.titl3 Adieresis.titl4 ];\012sub Agrave.titl1 from [ Agrave.titl2 Agrave.titl3 Agrave.titl4 ];\012sub Amacron.titl1 from [ Amacron.titl2 Amacron.titl3 Amacron.titl4 ];\012sub Atilde.titl1 from [ Atilde.titl2 Atilde.titl3 Atilde.titl4 ];\012sub B.titl1 from [ B.titl2 ];\012sub C.titl1 from [ C.titl2 ];\012sub D.titl1 from [ D.titl2 ];\012sub E.titl1 from [ E.titl2 ];\012sub Eacute.titl1 from [ Eacute.titl2 ];\012sub Ecircumflex.titl1 from [ Ecircumflex.titl2 ];\012sub Edieresis.titl1 from [ Edieresis.titl2 ];\012sub Egrave.titl1 from [ Egrave.titl2 ];\012sub Emacron.titl1 from [ Emacron.titl2 ];\012sub G.titl1 from [ G.titl2 G.titl3 ];\012sub H.titl1 from [ H.titl2 H.titl3 ];\012sub M.titl1 from [ M.titl2 ];\012sub N.titl1 from [ N.titl2 ];\012sub O.titl1 from [ O.titl2 ];\012sub P.titl1 from [ P.titl2 ];\012sub R.titl1 from [ R.titl2 ];\012sub S.titl1 from [ S.titl2 ];\012sub U.titl1 from [ U.titl2 ];\012sub Uacute.titl1 from [ Uacute.titl2 ];\012sub Ucircumflex.titl1 from [ Ucircumflex.titl2 ];\012sub Udieresis.titl1 from [ Udieresis.titl2 ];\012sub Ugrave.titl1 from [ Ugrave.titl2 ];\012sub Umacron.titl1 from [ Umacron.titl2 ];\012sub AE from [ AE.alt1 ];\012sub D.med1 from [ D.med2 D.med3 ];\012sub B.med1 from [ B.med2 ];\012sub Q.med1 from [ Q.med2 ];\012sub uniA751 from [ uniA751.alt ];";
 name = salt;
 },
 {
-code = "  sub n.alt2 by n.alt2.swash;\012  sub r.alt2 by r.alt2.swash;\012  sub e by e.swash;\012  sub e.hist1 by e.swash;\012  sub t by t.swash;\012  sub a by a.swash;\012  sub uniA783 by uniA783.swash;";
+code = "  sub n.alt2 by n.alt2.swash;\012  sub r.alt2 by r.alt2.swash;\012  sub e by e.swash;\012  sub eacute.hist1 by eacute.swash;\012  sub egrave.hist1 by egrave.swash;\012  sub edieresis.hist1 by edieresis.swash;\012  sub emacron.hist1 by emacron.swash;\012  sub e.hist1 by e.swash;\012  sub eacute.hist1 by eacute.swash;\012  sub egrave.hist1 by egrave.swash;\012  sub edieresis.hist1 by edieresis.swash;\012  sub emacron.hist1 by emacron.swash;\012  sub t by t.swash;\012  sub a by a.swash;\012  sub aacute by aacute.swash;\012  sub acircumflex by acircumflex.swash;\012  sub adieresis by adieresis.swash;\012  sub agrave by agrave.swash;\012  sub amacron by amacron.swash;\012  sub atilde by atilde.swash;\012  sub uniA783 by uniA783.swash;";
 name = swsh;
 },
 {
@@ -80330,16 +80325,9 @@ width = 624;
 },
 {
 glyphname = t.alt2;
-lastChange = "2020-03-31 09:29:03 +0000";
+lastChange = "2020-04-01 10:33:10 +0000";
 layers = (
 {
-background = {
-components = (
-{
-name = t;
-}
-);
-};
 layerId = master01;
 paths = (
 {
@@ -92690,9 +92678,23 @@ width = 712;
 },
 {
 glyphname = a.swash;
-lastChange = "2020-03-18 21:11:12 +0000";
+lastChange = "2020-04-01 03:05:46 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{257, 0}";
+},
+{
+name = ogonek;
+position = "{730, 10}";
+},
+{
+name = top;
+position = "{257, 425}";
+}
+);
 layerId = master01;
 paths = (
 {
@@ -92988,6 +92990,82 @@ nodes = (
 );
 }
 );
+width = 811;
+}
+);
+},
+{
+glyphname = aacute.swash;
+lastChange = "2020-04-01 03:05:55 +0000";
+layers = (
+{
+components = (
+{
+name = a.swash;
+},
+{
+name = acutecomb;
+transform = "{1, 0, 0, 1, 235, 0}";
+}
+);
+layerId = master01;
+width = 811;
+}
+);
+},
+{
+glyphname = acircumflex.swash;
+lastChange = "2020-04-01 03:05:56 +0000";
+layers = (
+{
+components = (
+{
+name = a.swash;
+},
+{
+name = circumflexcomb;
+transform = "{1, 0, 0, 1, 263, 0}";
+}
+);
+layerId = master01;
+width = 811;
+}
+);
+},
+{
+glyphname = adieresis.swash;
+lastChange = "2020-04-01 03:05:56 +0000";
+layers = (
+{
+components = (
+{
+name = a.swash;
+},
+{
+name = dieresiscomb;
+transform = "{1, 0, 0, 1, 268, 0}";
+}
+);
+layerId = master01;
+width = 811;
+}
+);
+},
+{
+glyphname = agrave.swash;
+lastChange = "2020-04-01 03:05:57 +0000";
+layers = (
+{
+components = (
+{
+name = a.swash;
+},
+{
+name = gravecomb;
+transform = "{1, 0, 0, 1, 287, 0}";
+}
+);
+layerId = master01;
 width = 811;
 }
 );
@@ -93548,6 +93626,44 @@ nodes = (
 }
 );
 width = 554;
+}
+);
+},
+{
+glyphname = amacron.swash;
+lastChange = "2020-04-01 03:05:58 +0000";
+layers = (
+{
+components = (
+{
+name = a.swash;
+},
+{
+name = macroncomb;
+transform = "{1, 0, 0, 1, 253, 0}";
+}
+);
+layerId = master01;
+width = 811;
+}
+);
+},
+{
+glyphname = atilde.swash;
+lastChange = "2020-04-01 03:05:58 +0000";
+layers = (
+{
+components = (
+{
+name = a.swash;
+},
+{
+name = tildecomb;
+transform = "{1, 0, 0, 1, 251, 0}";
+}
+);
+layerId = master01;
+width = 811;
 }
 );
 },
