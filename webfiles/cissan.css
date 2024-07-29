@@ -26,8 +26,16 @@
   }
 
   .headerbox {
+      background-image: url("parch-light.jpg");
       background-color: lightgray;
       padding: 30px;
+  }
+
+  .bottombox {
+    clear: both;
+    padding: 20px;
+    background-image: url("parch-light.jpg");
+    background-color: lightgray;
   }
 
   .controlbox {
