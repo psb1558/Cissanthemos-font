@@ -55,7 +55,7 @@ $(document).ready(function(){
 	}
 
 	selectElement("languages","ModEnglish");
-	selectElement("fontsizes","2em");
+	selectElement("fontsizes","1.5em");
 
 	// The "languages" dropdown menu selects a text and also
 	// sets the "lang" attribute for the text box.
