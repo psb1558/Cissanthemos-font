@@ -14,8 +14,8 @@
 
 
 @font-face {
-  font-family: 'Cerne';
-  src:url("./Cerne.woff2");
+  font-family: 'Cissanthemos';
+  src:url("./Cissanthemos.woff2");
   font-weight: normal;
   font-style:normal;
 }
@@ -43,7 +43,7 @@
   }
 
   #textbox {
-      font-family: Cerne;
+      font-family: Cissanthemos;
       width: 48%;
       height: 500px;
       overflow-x: hidden;
@@ -83,7 +83,7 @@
   }
 
   h1 {
-      font-family: Cerne;
+      font-family: Cissanthemos;
       font-weight: 400;
       font-size: 5em;
   }
