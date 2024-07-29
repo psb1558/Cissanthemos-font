@@ -1,0 +1,105 @@
+@font-face {
+  font-family: 'JuniusX';
+  src:url("./JuniusX-Regular.woff2");
+  font-weight: normal;
+  font-style:normal;
+}
+
+@font-face {
+  font-family: 'JuniusX';
+  src:url("./JuniusX-Bold.woff2");
+  font-weight: bold;
+  /* font-style:normal; */
+}
+
+
+@font-face {
+  font-family: 'Cerne';
+  src:url("./Cerne.woff2");
+  font-weight: normal;
+  font-style:normal;
+}
+
+  body {
+      width: 95%;
+      padding: 20px;
+  }
+
+  .headerbox {
+      background-color: lightgray;
+      padding: 30px;
+  }
+
+  .controlbox {
+      width: 48%;
+      float: left;
+      border: 1px;
+      font-family: JuniusX;
+      padding: 10px;
+  }
+
+  .dropdown {
+      padding-bottom: 10px;
+  }
+
+  #textbox {
+      font-family: Cerne;
+      width: 48%;
+      height: 500px;
+      overflow-x: hidden;
+      overflow-y: auto;
+      float: right;
+      border: 1px solid black;
+      font-size: 3em;
+      padding: 10px;
+      margin-bottom: 20px;
+  }
+
+  .colorpicker {
+    display: none;
+    line-height: 2.5em;
+    white-space: nowrap;
+    background-color: lightgray;
+    padding: 6px 8px 6px 5px;
+    margin: 5px;
+    font-family: JuniusX;
+}
+
+  .check {
+      line-height: 2.5em;
+      white-space: nowrap;
+      background-color: lightgray;
+      padding: 6px 8px 6px 5px;
+      margin: 5px;
+      font-family: JuniusX;
+  }
+
+  .hid {
+      display: none;
+  }
+
+  .smcp {
+      font-feature-settings: "smcp" on;
+  }
+
+  h1 {
+      font-family: Cerne;
+      font-weight: 400;
+      font-size: 5em;
+  }
+
+  h2 {
+      font-family: JuniusX;
+      font-weight: 700;
+      font-size: 2em;
+      padding: 10px 0px 0px 0px;
+  }
+
+  p {
+      font-family: JuniusX;
+      font-size: 1.5em;
+  }
+
+  div {
+      font-family: JuniusX;
+  }
