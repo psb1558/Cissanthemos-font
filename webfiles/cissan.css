@@ -103,6 +103,10 @@
       font-feature-settings: "smcp" on;
   }
 
+  .capcolor {
+    font-feature-settings: "ss03" on;
+  }
+
   h1 {
       font-family: Cissanthemos;
       font-weight: 400;
