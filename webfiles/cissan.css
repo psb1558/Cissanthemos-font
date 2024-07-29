@@ -79,6 +79,10 @@
     border: 1px solid black;
 }
 
+#colorinput {
+    height: 20px;
+}
+
   .check {
       line-height: 2.5em;
       white-space: nowrap;
