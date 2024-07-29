@@ -149,6 +149,7 @@ $(document).ready(function(){
 				$(".hid").css("display", "none");
 			}
 		});
+		alert(fstring)
 
 		if (showcolor) {
 			$(".colorpicker").css("display", "inline")
