@@ -50,7 +50,8 @@
       overflow-y: auto;
       float: right;
       border: 1px solid black;
-      font-size: 2em;
+      font-size: 1.5em;
+      line-height: 110%;
       padding: 10px;
       margin-bottom: 20px;
   }
