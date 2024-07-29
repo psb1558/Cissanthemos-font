@@ -76,6 +76,7 @@
     margin: 5px;
     font-family: JuniusX;
     background-image: url("parch-light.jpg");
+    border: 1px solid black;
 }
 
   .check {
@@ -86,6 +87,7 @@
       margin: 5px;
       font-family: JuniusX;
       background-image: url("parch-light.jpg");
+      border: 1px solid black;
   }
 
   .hid {
