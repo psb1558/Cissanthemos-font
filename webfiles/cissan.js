@@ -27,15 +27,15 @@ $(document).ready(function(){
 		 Orcadas Insulas habet.";
 
     var oldenglishtext = "Breton is garsecges ealond, þæt wæs iu geara Albion \
-		haten: is geseted betwyh norðdæle and westdæle, Germanie ⁊ Gallie ⁊ \
+		haten: is geseted betwyh norðdæle and westdæle, Germanie and Gallie and \
 		Hispanie þam mæstum dælum Europe myccle fæce ongegen. Þæt is norð ehta \
-		hund mila lang, ⁊ tu hund mila brad. Hit hafað fram suðdæle þa mægþe \
-		ongean, þe mon hateþ Gallia Bellica. Hit is welig þis ealond on wæstmum ⁊ \
-		on treowum misenlicra cynna; ⁊ hit is gescræpe on læswe sceapa ⁊ neata; ⁊ \
+		hund mila lang, and tu hund mila brad. Hit hafað fram suðdæle þa mægþe \
+		ongean, þe mon hateþ Gallia Bellica. Hit is welig þis ealond on wæstmum and \
+		on treowum misenlicra cynna; and hit is gescræpe on læswe sceapa and neata; and \
 		onsumum stowum wingeardas growaþ. Swylce eac þeos eorþe is berende \
-		missenlicra fugla ⁊ sæwihta, ⁊ fiscumwyllum wæterum ⁊ wyllgespryngum. ⁊ \
-		her beoþ oft fangene seolas ⁊ hronas and mereswyn; ⁊ her beoþ oft numene \
-		missenlicra cynna weolcscylle ⁊ muscule, ⁊ on þam beoð oft gemette þa \
+		missenlicra fugla and sæwihta, and fiscumwyllum wæterum and wyllgespryngum. and \
+		her beoþ oft fangene seolas and hronas and mereswyn; and her beoþ oft numene \
+		missenlicra cynna weolcscylle and muscule, and on þam beoð oft gemette þa \
 		betstan meregrotan ælces hiwes.";
 
 	var usercolor = "#000000";
@@ -139,7 +139,7 @@ $(document).ready(function(){
 					fstring = featureString(fstring, basetag, tagindex);
 				}
 				else {
-					if (tag == "ss06") {
+					if (tag == "ss06" || tag == "ss07") {
 						showcolor = true
 					}
 					fstring = featureString(fstring, tag, "on");
