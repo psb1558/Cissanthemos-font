@@ -28,15 +28,15 @@
         <div class="dropdown">
           <label for="fontsizes">Choose a size: </label>
           <select id="fontsizes" name="fontsizes">
+            <option value="1.5em">1.5em</option>
+            <option value="1.75em">1.75em</option>
+            <option value="2em" selected="selected">2em</option>
+            <option value="2.25em">2.25em</option>
             <option value="2.5em">2.5em</option>
             <option value="2.75em">2.75em</option>
-            <option value="3em" selected="selected">3em</option>
+            <option value="3em">3em</option>
             <option value="3.25em">3.25em</option>
             <option value="3.5em">3.5em</option>
-            <option value="3.75em">3.75em</option>
-            <option value="4em">4em</option>
-            <option value="4.25em">4.25em</option>
-            <option value="4.5em">4.5em</option>
           </select>
         </div>
       <div class="dropdown">
@@ -101,6 +101,11 @@
         <span class="check"><input type="checkbox" id="swsh"
             name="swsh"/><label for="swsh" data-tooltip="Swashes (swsh)">
                 Swashes (swsh)</label>
+        </span>
+
+        <span class="check"><input type="checkbox" id="dlig"
+            name="dlig"/><label for="dlig" data-tooltip="Discretionary Ligatures (dlig)">
+                Discretionary Ligatures (dlig)</label>
         </span>
 
         <span class="check"><input type="checkbox" id="salt1"
