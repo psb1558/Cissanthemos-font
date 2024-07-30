@@ -165,11 +165,11 @@ $(document).ready(function(){
 
 		if (altcolor) {
 			alert("Adding class")
-			$("textbox").addClass("altcolors")
+			$("#textbox").addClass("altcolors")
 		}
 		else {
 			alert("Removing class")
-			$("textbox").removeClass("altcolors")
+			$("#textbox").removeClass("altcolors")
 		}
 
 		if (fstring.length == 0)
