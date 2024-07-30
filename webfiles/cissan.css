@@ -20,6 +20,11 @@
   font-style:normal;
 }
 
+@font-palette-values --hotpink {
+    font-family: Cissanthemos;
+    override-colors: 2 #ff00ff;
+}
+
   body {
       width: 95%;
       padding: 20px;
