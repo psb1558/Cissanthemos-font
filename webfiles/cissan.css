@@ -71,7 +71,7 @@
       padding: 10px;
       margin-bottom: 20px;
       background-image: url("parch-light.jpg");
-      font-palette: hotpink;
+      font-palette: --hotpink;
   }
 
   .colorpicker {
