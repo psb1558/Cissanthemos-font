@@ -58,7 +58,7 @@
       width: 48%;
       float: left;
       border: 1px;
-      font-family: JuniusX;
+      font-family: Irradiant;
       padding: 10px;
   }
 
@@ -88,7 +88,7 @@
     background-color: lightgray;
     padding: 6px 8px 6px 5px;
     margin: 5px;
-    font-family: JuniusX;
+    font-family: Irradiant;
     background-image: url("parch-light.jpg");
     border: 1px solid black;
 }
@@ -103,7 +103,7 @@
       background-color: lightgray;
       padding: 6px 8px 6px 5px;
       margin: 5px;
-      font-family: JuniusX;
+      font-family: Irradiant;
       background-image: url("parch-light.jpg");
       border: 1px solid black;
   }
@@ -127,17 +127,17 @@
   }
 
   h2 {
-      font-family: JuniusX;
+      font-family: Irradiant;
       font-weight: 700;
       font-size: 2em;
       padding: 10px 0px 0px 0px;
   }
 
   p {
-      font-family: JuniusX;
+      font-family: Irradiant;
       font-size: 1.5em;
   }
 
   div {
-      font-family: JuniusX;
+      font-family: Irradiant;
   }
