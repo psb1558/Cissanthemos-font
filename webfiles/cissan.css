@@ -22,7 +22,13 @@
 
 @font-palette-values --Alternate {
     font-family: Cissanthemos;
-    override-colors: 2 rgb(255, 0, 255);
+    override-colors:
+    0 rgb(94, 64, 54),
+    1 rgb(53, 118, 223),
+    2 rgb(240, 81, 53),
+    3 rgb(42, 210, 51),
+    4 rgb(230, 220, 39),
+    5 rgb(189, 65, 59);
 }
 
   body {
