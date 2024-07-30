@@ -20,6 +20,12 @@
   font-style:normal;
 }
 
+/*
+    The @font-palette-values at-rule defines an alternative set of
+    colors to replace the five colors of the Cissanthemos font.
+    To change the colors, simply add the class ".altcolors" to the
+    element containing the text whose color you want to change.
+*/
 @font-palette-values --Alternate {
     font-family: Cissanthemos;
     override-colors:
