@@ -163,6 +163,7 @@ $(document).ready(function(){
 			$(".colorpicker").css("display", "none")
 		}
 
+		alert(altcolor)
 		if (altcolor) {
 			$("textbox").addClass("altcolors")
 		}
