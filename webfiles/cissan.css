@@ -20,9 +20,9 @@
   font-style:normal;
 }
 
-@font-palette-values --hotpink {
+@font-palette-values --Alternate {
     font-family: Cissanthemos;
-    override-colors: 2 #ff00ff;
+    override-colors: 2 rgb(255, 0, 255);
 }
 
   body {
@@ -71,7 +71,7 @@
       padding: 10px;
       margin-bottom: 20px;
       background-image: url("parch-light.jpg");
-      font-palette: --hotpink;
+      font-palette: --Alternate;
   }
 
   .colorpicker {
