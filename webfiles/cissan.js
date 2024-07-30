@@ -126,12 +126,16 @@ $(document).ready(function(){
 
 		fstring = "";
 		showcolor = false
+		altcolor = false
 
 		$("input").each(function() {
 			var tag = $(this).attr("id");
 			if ($( this ).is(":checked")) {
 				if ( tag === "morefeat" ) {
 					$(".hid").css("display", "inline");
+				}
+				else if (tag === "altcolor") {
+					altcolor = true
 				}
 				else if ( tag.length == 5 ) {
 					var basetag = tag.substring(0,4);
@@ -157,6 +161,13 @@ $(document).ready(function(){
 		}
 		else {
 			$(".colorpicker").css("display", "none")
+		}
+
+		if (altcolor) {
+			$("textbox").addClass("altcolors")
+		}
+		else {
+			$("textbox").removeClass("altcolors")
 		}
 
 		if (fstring.length == 0)
