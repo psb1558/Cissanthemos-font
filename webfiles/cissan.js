@@ -43,9 +43,7 @@ $(document).ready(function(){
 	// Clear the menus and boxes (in case the page is being reloaded) and
 	// display the default (modern English) text.
 
-//	var fstring = "\"ss08\" on, \"dlig\" on";
   var fstring = "";
-//	$("#textbox").css("font-feature-settings", fstring).text(modtext);
 	$("#textbox").text(modtext);
 	$( "input[type='checkbox']" ).prop("checked", false);
 
@@ -69,19 +67,13 @@ $(document).ready(function(){
 
 		switch ( $("#languages option:selected").attr("value") ) {
 			case "ModEnglish":
-				// $( "input[type='checkbox']" ).not("#ss08, #dlig").prop("checked", false);
-				// $("#ss08, #dlig").prop("checked",true).change();
 				break;
 			case "OldEnglish":
-				// lang code is ang, but we use en to trigger English thorn and eth.
 				t = oldenglishtext;
-				// $( "input[type='checkbox']" ).prop("checked", false).first().change();
 				break;
 			case "Latin":
 				l = "la"
 				t = latintext;
-				// $( "input[type='checkbox']" ).not("#hist").prop("checked", false);
-				// $("#hist").prop("checked",true).change();
 				break;
 		}
 
@@ -107,20 +99,15 @@ $(document).ready(function(){
 		return ss;
 	}
 
-	// Cycle through all the checkboxes, building the feature string. This is necessary
-	// because in CSS all features besides the ones you set explicitly are set to their
-	// default values. So we specify everything we want every time a box is checked or
-	// unchecked.
-
-	// $("#colorinput").change(function(){
-	// 	usercolor = $("#colorinput").val()
-	// 	$("#textbox").css("color", usercolor)
-	// })
-
 	$("#colorinput").on("input", function(){
 		usercolor = $("#colorinput").val()
 		$("#textbox").css("color", usercolor)
 	})
+
+	// Cycle through all the checkboxes, building the feature string. This is necessary
+	// because in CSS all features besides the ones you set explicitly are set to their
+	// default values. So we specify everything we want every time a box is checked or
+	// unchecked.
 
 	$(".check").change(function() {
 
@@ -153,7 +140,6 @@ $(document).ready(function(){
 				$(".hid").css("display", "none");
 			}
 		});
-		// alert(fstring)
 
 		if (showcolor) {
 			$(".colorpicker").css("display", "inline")
